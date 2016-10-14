@@ -1,15 +1,16 @@
 #!/bin/bash
+#week2 Lab
+#Adam Flood
+#x00110480
 
-echo "This is a script to create directories."
 
-#delete the directory first
-rmdir week2
+#$1 $2 $3 are positional parameters
 
-#throws an exception if week2 already exists
-mkdir week2
+echo "you entered $1 $2 $3"
+echo "Is this correct?"
 
-#create 3 subdirectories in week 2
-cd week2
-mkdir week2/Subdirectory1
-mkdir week2/Subdirectory2
-mkdir week2/Subdirectory3
+echo "the date is:" date +%F_%r
+
+
+
+
